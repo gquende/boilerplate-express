@@ -14,7 +14,7 @@ app.use((req, res, next) => {
 
   console.log(`${method} ${path} - ${ip}`);
   
-  next(); // Chama next() para continuar com o fluxo de solicitação
+  next();
 });
 
 // Rota de exemplo
